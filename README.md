@@ -14,9 +14,9 @@ Lee Dotan
 
 This figure shows the running times of the three algorithms on random arrays.
 
-Insertion Sort becomes much slower when the array size gets bigger.
+As the array size grows, the running time of Insertion Sort increases much more than the other algorithms.
 
-Merge Sort and Quick Sort are much faster on larger arrays.
+Merge Sort and Quick Sort have lower running times and handle larger arrays more efficiently.
 
 ## Result 2
 
@@ -24,10 +24,8 @@ Merge Sort and Quick Sort are much faster on larger arrays.
 
 This figure shows the running times of the same algorithms on nearly sorted arrays.
 
-Insertion Sort is faster here than in the first experiment because the array is already close to sorted.
+Compared to result1, the running time of Insertion Sort is lower in this experiment.
 
-Merge Sort stays efficient and is less affected by the original order of the array.
+Merge Sort has the lowest running times in this graph, and Quick Sort is also efficient.
 
-Quick Sort also performs well, although in this experiment it was a little slower than Merge Sort.
-
-Compared to result1, the running times changed because the input in result2 was nearly sorted instead of random. This especially helped Insertion Sort.
+Compared to result1, the running times changed because the input in result2 was nearly sorted instead of random.
